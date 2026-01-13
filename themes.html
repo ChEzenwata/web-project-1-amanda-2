@@ -7,70 +7,107 @@
   </head>
   <body>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="characters.html">Characters</a>
-      <a href="themes.html">Themes</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="themes.html">Themes</a></li>
+      </ul>
     </nav>
-
-    <h1>Themes</h1>
+    <header>
+      <h1>Themes</h1>
+      <img
+        src="https://m.media-amazon.com/images/I/41sdj3l4CvL._SY445_SX342_.jpg"
+        width="400"
+        height="500" />
+    </header>
     <hr />
-    <h2>Major themes</h2>
-    <!-- Change this to a table with headings of Theme and Explanation -->
-    <table>
-      <!-- tr defines a row of the table. -->
-      <tr>
-        <!-- th is for table headings. -->
-        <th>Theme</th>
-        <th>Explanation</th>
-      </tr>
-      <tr>
-        <!-- 
+    <main>
+      <h2>Major themes</h2>
+      <!-- Change this to a table with headings of Theme and Explanation -->
+      <table>
+        <!-- tr defines a row of the table. -->
+        <tr>
+          <!-- th is for table headings. -->
+          <th>Theme</th>
+          <th>Explanation</th>
+        </tr>
+        <tr>
+          <!-- 
           td stands for table data, which is the information
           you want to display in your table.
         -->
-        <td><b>Loss and Grief</b></td>
-        <td>
-          The protagonist Ellery Stevens struggles with the<br />
-          loss of her younger sister and the later grief that follows.<br />
-        </td>
-      </tr>
+          <td><b>Loss and Grief</b></td>
+          <td>
+            The protagonist Ellery Stevens struggles with the<br />
+            loss of her younger sister and the later grief that follows.<br />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td><b>Hope and Redemption</b></td>
+          <td>
+            In the face of all her depression, Ellery's journey<br />
+            to hope is a central theme. She struggles with suicidal thoughts
+            and<br />
+            her realization of the importance of life and connection.
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td><b>Family Dynamics</b></td>
+          <td>
+            The relationship between Ellery and her family especially her<br />
+            is a significant part of the story.
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td><b>Mental Health</b></td>
+          <td>
+            The book discusses the serious topic of mental health<br />
+            including the influence of grief and the importance of seeking
+            help.<br />
+            It discusses the struggles of young adults dealing with mental
+            health.
+          </td>
+        </tr>
+      </table>
+      <hr />
+      <h2>What is the author trying to teach?</h2>
+      <p>
+        The author is trying to inform readers about mental health awareness<br />
+        and its healing process through Ellery Stevens' point of view. It
+        reflects<br />
+        on the complexities of life after loss and the importance of finding
+        joy.<br />
+      </p>
+      <hr />
+      <h2>My Personal Takeaway</h2>
+      <p>
+        My personal takeaway is that, it's easier to find ways to cope with<br />
+        grief rather than shoving it inside. Love can have an impact on a
+        person's<br />
+        life when it comes to making difficult decisions.
+      </p>
       <br />
-      <tr>
-        <td><b>Hope and Redemption</b></td>
-        <td>
-          In the face of all her depression, Ellery's journey<br />
-          to hope is a central theme. She struggles with suicidal thoughts
-          and<br />
-          her realization of the importance of life and connection.
-        </td>
-      </tr>
-      <br />
-      <tr>
-        <td><b>Family Dynamics</b></td>
-        <td>
-          The relationship between Ellery and her family especially her<br />
-          is a significant part of the story.
-        </td>
-      </tr>
-      <br />
-      <tr>
-        <td><b>Mental Health</b></td>
-        <td>
-          The book discusses the serious topic of mental health<br />
-          including the influence of grief and the importance of seeking
-          help.<br />
-          It discusses the struggles of young adults dealing with mental health.
-        </td>
-      </tr>
-    </table>
-    <hr />
-    <h2>What is the author trying to teach?</h2>
-    <p>
-      The author is trying to inform readers about mental health awareness<br />
-      and its healing process through Ellery Stevens' point of view. It
-      reflects<br />
-      on the complexities of life after loss and the importance of finding
-      joy.<br />
-    </p>
+      <form method="get" id="survey">
+        <fieldset>
+          <legend>Survey</legend>
+          <label for="first-name">First name</label>
+          <input type="text" id="first-name" name="f-name" />
+          <br />
+          <label for="age">Your Age</label>
+          <input type="text" id="age" name="age" />
+          <br />
+          <label for="rate">Rating(out of 10)</label>
+          <input type="text" id="rate" name="rate" />
+          <br />
+          <label for="datePicker">Submit Date</label>
+          <input type="date" id="datePicker" name="date" />
+          <br />
+          <input type="submit" value="Submit form" />
+        </fieldset>
+      </form>
+    </main>
   </body>
 </html>
